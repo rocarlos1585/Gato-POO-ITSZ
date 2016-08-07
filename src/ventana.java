@@ -147,7 +147,6 @@ public class ventana extends JFrame {
                                     boton1.setText(" ");
                                     boton1.setIcon(iconx);
                                     //esta fucion es para devolver el color  los botones
-                                    boton1.setDisabledIcon(iconx);
                                     bandera=1;
 
                                     if(/*linea del b1 al b3*/ boton1.getText()==boton2.getText()&&boton3.getText()==boton1.getText()&&boton1.getText()==j1  ||  /*diagonal del b1 al b9 */ boton1.getText()==boton5.getText()&&boton9.getText()==boton1.getText()&&boton1.getText()==j1  ||  /*linea del b1 al b7*/ boton1.getText()==boton4.getText()&&boton7.getText()==boton1.getText()&&boton1.getText()==j1  ||  /*linea del b7 al b9*/ boton7.getText()==boton8.getText()&&boton9.getText()==boton7.getText()&&boton7.getText()==j1  ||  /*linea del b3 al b9*/ boton3.getText()==boton6.getText()&&boton9.getText()==boton3.getText()&&boton3.getText()==j1  || /*columna del b2 al b8 */ boton2.getText()==boton5.getText()&&boton8.getText()==boton2.getText()&&boton2.getText()==j1  ||   /* diagonal del b3 al b7 */ boton3.getText()==boton5.getText()&&boton7.getText()==boton3.getText()&&boton3.getText()==j1  ||  /*fila del b4 al b6 */ boton4.getText()==boton5.getText()&&boton6.getText()==boton4.getText()&&boton4.getText()==j1){
